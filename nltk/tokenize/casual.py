@@ -286,7 +286,7 @@ class TweetTokenizer:
         the original string if `preserve_case=False`
         """
         # Fix HTML character entities:
-        text = _replace_html_entities(text)
+        #text = _replace_html_entities(text)
         # Remove username handles
         if self.strip_handles:
             text = remove_handles(text)
